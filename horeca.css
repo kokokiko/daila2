@@ -1,0 +1,54 @@
+html,body{height:100%;}
+body {
+  padding-top: 50px;
+
+}
+.container{min-height:100%;}
+#footer{
+    
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.dropdown-header{
+    font-size:110%;
+    font-weight: bold;
+    color:#777;
+    font-family:Verdana;
+}
+#horecaa:hover{
+        
+          -webkit-box-shadow: 4px 4px 184px 10px rgba(115,99,17,1);
+-moz-box-shadow: 4px 4px 184px rgba(115,99,17,1);
+box-shadow: 4px 4px 184px 10px rgba(115,99,17,1);
+            background-color:rgba(115,99,17, 0.41);
+            border-radius:100%;
+}
+#vendingg:hover{
+     -webkit-box-shadow: 4px 4px 184px 10px rgba(17,26,117,1);
+-moz-box-shadow: 4px 4px 184px rgba(17,26,117,1);
+box-shadow: 4px 4px 184px 10px rgba(17,26,117,1);
+            background-color:rgba(17,26,117, 0.41);
+            border-radius:100%;
+}
+#bakeryy:hover{
+    
+          -webkit-box-shadow: 4px 4px 184px 10px rgba(119,17,54,1);
+-moz-box-shadow: 4px 4px 184px rgba(119,17,54,1);
+box-shadow: 4px 4px 184px 10px rgba(119,17,54,1);
+            background-color:rgba(119,17,54, 0.41);
+            border-radius:100%;
+}
+#containing{
+    margin-top:1%;
+}
+.row{
+    margin-bottom:3%;
+}
+.col-lg-4{text-align:center;}
+#contcol a img{border: 1px solid rgba(0,0,0,0)}
+#contcol a img:hover{
+    border-radius:10%;
+    border:1px solid #CCCCCC;
+}

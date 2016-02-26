@@ -1,232 +1,244 @@
 <!DOCTYPE html>
-<html>
-<title>
-Daila | Home
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Kaloyan Bozhkov">
+    <link rel="icon" href="http://daila.it/images/site/logodaila3.ico">
 
-</title>
+    <title>Daila | Home</title>
 
-<body>
-<link rel="stylesheet" type="text/css" href="theme.css">
-<div id="destra">
-    
-		<a href="index.html"><img id="logo" src="http://daila.it/images/site/logo.png" alt="logo"></a>
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-		<p id="titolo"> Daila srl</p>
-    <div id="conttesto">
-    <p id="testos"> <b>Indirizzo:</b> Via Caduti sul lavoro 14, Osio sotto, Bergamo, Italy<br />
-            <b>Tel.:</b> +39 035 530495 <b>Fax.:</b> +39 035 531072 <b>Email:</b> info@daila.it<br />
-            <b>Partita IVA:</b> 02743210169</p>
-    </div>
-	<a href="index.html">	    <img id="home" src="http://daila.it/images/site/homebtn.png" alt="Home"></a>
-	<a href="Chisiamo.html">	<img id="info" src="http://daila.it/images/site/chisiamobtn.png" alt="Chi siamo"></a>
-	<a href="Produzione.html">	<img id="prod" src="http://daila.it/images/site/produzionebtn.png" alt="Produzione"></a>
-	<a href="Download.html">	<img id="download" src="http://daila.it/images/site/downloadbtn.png" alt="Download"></a>
-	<a href="Contattaci.html">	<img id="contact" src="http://daila.it/images/site/contattacibtn.png" alt="Contattaci"></a>
-    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    
-</div>
-       <div id="sinistra">
-		<h2>Home</h2>
-    </div>
-    <div id="slide2">
-    <div id="slider">
-<figure>
-<img src="http://daila.it/images/stories/header/1.jpg" alt="">
-<img src="http://daila.it/images/stories/header/2.jpg" alt="">
-<img src="http://daila.it/images/stories/header/3.jpg" alt="">    
-<img src="http://daila.it/images/stories/header/5.jpg" alt="">
-<img src="http://daila.it/images/stories/header/1.jpg" alt="">
-</figure>
-</div>	
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-</div>
-     <div id="slide22" class=gradient2>
-          <div class="gradient2">
-           </div>
-    <div id="slider">
-<figure>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+      
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header" >
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Daila</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#chisiamo">Chi siamo</a></li>
+            <li><a href="contattaci.html">Contattaci</a></li>
+           <li>
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                      
+                    <li class="dropdown-header">Le nostre certificazioni:</li>
+                    <li ><a href="http://daila.it/images/koshercertificate.pdf">Kosher Certificate</a></li>
+                    <li ><a href="http://daila.it/images/cert.iso9001daila2013.pdf">CSQA Daila ISO 9001</a></li>
+                    <li ><a href="http://daila.it/images/cert.iso22000daila2013.pdf">CSQA Daila ISO 22000</a></li>                       
+                    <li ><a href="http://daila.it/images/1691_2014-00-bio.pdf">Bio Agri Cert</a></li>
+                    <li class="dropdown-header" >Catalogo:</li>
+                    <li ><a href="http://daila.it/images/catalogo2015ita.pdf">Catalogo 2015 ITA</a></li>
+                  </ul>
+                </li>
+            
+            </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:10%; border:1px solid black">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="http://daila.it/images/stories/header/1.jpg" alt="Daila SRL">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Daila</h1>
+              <p>Il meglio dello zucchero. <br>Operanti nel settore dello zucchero da 40 anni.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">LEGGI TUTTO..</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="http://daila.it/images/stories/header/2.jpg" alt="Materie prime">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Materie prime di alta qualità.</h1>
+              <p>La qualità delle nostre materie prime, le moderne attrezzature, la potenzialità del nostro comparto produttivo, ci consentono di offrire alla nostra Clientela, anche un ottimale rapporto qualità / prezzo ed una dinamica flessibilità...</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">LEGGI TUTTO..</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="http://daila.it/images/stories/header/8.png" alt="Lavorazione">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>I nostri metodi di lavorazione.</h1>
+              <p>Tutta la nostra produzione è conforme alla normativa Italiana ed europea attualmente in vigore.<br>
+                Particolare attenzione dedichiamo ai rigorosi controlli della produzione al fine di evitare il pericolo di contaminazione dei prodotti da parte di corpi estranei, metallici e non, applicando misure di controllo gestite attraverso sistemi CCP.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">LEGGI TUTTO..</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Precedente</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Successivo</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+        <div class="row featurette">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">I nostri prodotti: <span class="text-muted">Altissima qualita per ogni genere.</span></h2>
+          <p class="lead" style="text-align:center;">Ho.re.ca, Bakery, Vending... offriamo di tutto!</p> <br><br>
+        </div>
+      </div>
         
-<img src="http://daila.it/images/stories/header/5.jpg" alt="">
-<img src="http://daila.it/images/stories/header/1.jpg" alt="">
-<img src="http://daila.it/images/stories/header/2.jpg" alt="">    
-<img src="http://daila.it/images/stories/header/3.jpg" alt="">
-        
-<img src="http://daila.it/images/stories/header/5.jpg" alt="">
-</figure>
-</div>	
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+        <a id="horecaa" href="horeca.html"><img class="img-circle" src="http://daila.it/images/site/horeca.png" alt="Generic placeholder image" width="140" height="140"></a> 
+          <h2>Ho.Re.Ca.</h2>
+          
+          <p><a class="btn btn-default" href="horeca.html" role="button">Visualizza &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a id="bakeryy" href="bakery.html"><img class="img-circle" src="http://daila.it/images/site/bakery.png" alt="Generic placeholder image" width="140" height="140"></a>
+          <h2>Bakery</h2>
+          
+          <p><a class="btn btn-default" href="bakery.html" role="button">Visualizza &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a id="vendingg" href="vending.html"><img class="img-circle" src="http://daila.it/images/site/vendingcat.png" alt="Generic placeholder image" width="140" height="140"></a>
+          <h2>Vending</h2>
+          
+          <p><a class="btn btn-default" href="vending.html" role="button">Visualizza &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 
-</div>
-    
-       <div id="slide23" class="gradient">
-           <div class="gradient">
-           </div>
-    <div id="slider" >
-       
-<figure>
 
-<img src="http://daila.it/images/stories/header/2.jpg" alt="">    
-<img src="http://daila.it/images/stories/header/3.jpg" alt="">
+      <!-- START THE FEATURETTES -->
 
-<img src="http://daila.it/images/stories/header/5.jpg" alt="">
-    
-<img src="http://daila.it/images/stories/header/1.jpg" alt="">
-<img src="http://daila.it/images/stories/header/2.jpg" alt="">
-</figure>
-</div>	
+      <hr class="featurette-divider">
 
-</div>
-<div id="sottosinistra">
-																																				
-    <div id="contenutoo2" class="default">
-	<h3> Daila Zucchero</h3>
-	   <hr id="contseparator">
-	   <p> La qualità delle nostre materie prime, le moderne attrezzature, la potenzialità del nostro comparto produttivo, i severi controlli di processo cui sottoponiamo la nostra produzione, ci consentono di offrire alla nostra Clientela, oltre ad una gamma completa di prodotti ed una invidiabile puntualità di consegna, anche un ottimale rapporto qualità / prezzo ed una dinamica flessibilità nel caso di personalizzazione o di commesse dedicate.<br /><br />
-Nello specifico, con possibilità di stampa personalizzata da 1 a 4 colori, le quantità minime, per ogni soggetto personalizzato, sono di 100 Kg. di prodotto in bustina e/o stick per zucchero bianco e di 30 Kg. per lo zucchero di canna, sempre in bustina e/o stick.<br /><br />
+      <div id="chisiamo" class="row featurette">
+        <div class="col-md-7">
+          <h2  class="featurette-heading">Chi siamo.</h2>
+          <p class="lead">Daila opera nel settore dello zucchero da 40 anni.
 
-Per l’industria dolciaria, nostro settore trainante da sempre, produciamo zucchero velo, granella, zucchero vanigliato, zucchero impalpabile gusto neutro o aromatizzato, con vari gusti a scelta.<br /><br />
+L’esperienza accumulata, il personale qualificato, le moderne attrezzature logistiche e di produzione, la qualità del prodotto ed il “service” pre-post vendita, hanno contribuito a fare di Daila un’azienda leader nel settore dello zucchero in Italia.
 
-Nel segmento della distribuzione automatica, siamo in grado di diversificare il confezionamento finale del prodotto offrendo soluzioni di sacchetto da 1 o 2 Kg. in polietilene o carta, scatole-dispenser con differenziate quantità all'interno (da 50 a 500 pezzi) nonché multipack di bustine o sticks in sacchetto, il kit da 50 0 100 pezzi ed infine cartoni da 5 o 10 Kg. di bustine o sticks.<br /><br />
+Un management professionale, ben diretto dalla Proprietà, ha consentito all’azienda un costante sviluppo ed una graduale acquisizione dei marchi più prestigiosi dell’industria dolciaria italiana ed Europea.
 
-Particolare successo sta ottenendo il ns. dolcificante (edulcorante) che confezioniamo in una confezione stick.</p>
-   
-    </div>
-    
-
-</div>
-    <!--
-
-<div id="sinistraindex">
-		<h2>Home</h2>
-    </div>
-<div id="sottosinistra2">
-    <div id="slideshow">
-            <ul class="slides">
-    <input type="radio" name="radio-btn" id="img-1" checked />
-    <li class="slide-container">
-		<div class="slide">
-			<img src="http://daila.it/images/stories/header/1.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-6" class="prev">&#x2039;</label>
-			<label for="img-2" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-2" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="http://daila.it/images/stories/header/2.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-1" class="prev">&#x2039;</label>
-			<label for="img-3" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-3" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="http://daila.it/images/stories/header/5.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-2" class="prev">&#x2039;</label>
-			<label for="img-4" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-4" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="http://daila.it/images/stories/header/3.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-3" class="prev">&#x2039;</label>
-			<label for="img-5" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-5" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="http://farm9.staticflickr.com/8055/8098750623_66292a35c0_z.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-4" class="prev">&#x2039;</label>
-			<label for="img-6" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-6" />
-    <li class="slide-container">
-        <div class="slide">
-          <img src="http://farm9.staticflickr.com/8195/8098750703_797e102da2_z.jpg" />
-        </div>
-		<div class="nav">
-			<label for="img-5" class="prev">&#x2039;</label>
-			<label for="img-1" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <li class="nav-dots">
-      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
-      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
-      <label for="img-6" class="nav-dot" id="img-dot-6"></label>
-    </li>
-</ul>
-
-        </div>
-</div>
-    
-    
-    
-    
-    
-    
-<div id="sottosinistra">
-																																						
-    
-    <div id="contenutoo" class="default">
-	   <h3> Daila Zucchero</h3>
-	   <hr id="contseparator">
-	   <p> La qualità delle nostre materie prime, le moderne attrezzature, la potenzialità del nostro comparto produttivo, i severi controlli di processo cui sottoponiamo la nostra produzione, ci consentono di offrire alla nostra Clientela, oltre ad una gamma completa di prodotti ed una invidiabile puntualità di consegna, anche un ottimale rapporto qualità / prezzo ed una dinamica flessibilità nel caso di personalizzazione o di commesse dedicate.<br /><br />
-Nello specifico, con possibilità di stampa personalizzata da 1 a 4 colori, le quantità minime, per ogni soggetto personalizzato, sono di 100 Kg. di prodotto in bustina e/o stick per zucchero bianco e di 30 Kg. per lo zucchero di canna, sempre in bustina e/o stick.<br /><br />
-
-Per l’industria dolciaria, nostro settore trainante da sempre, produciamo zucchero velo, granella, zucchero vanigliato, zucchero impalpabile gusto neutro o aromatizzato, con vari gusti a scelta.<br /><br />
-
-Nel segmento della distribuzione automatica, siamo in grado di diversificare il confezionamento finale del prodotto offrendo soluzioni di sacchetto da 1 o 2 Kg. in polietilene o carta, scatole-dispenser con differenziate quantità all'interno (da 50 a 500 pezzi) nonché multipack di bustine o sticks in sacchetto, il kit da 50 0 100 pezzi ed infine cartoni da 5 o 10 Kg. di bustine o sticks.<br /><br />
-
-Particolare successo sta ottenendo il ns. dolcificante (edulcorante) che confezioniamo in una confezione stick.</p>
-   
-    
-     <h3> La nostra azienda </h3>
-	   <hr id="contseparator">
-	   <p> Daila opera nel settore dello zucchero da 40 anni.<br><br>
-
-L’esperienza accumulata, il personale qualificato, le moderne attrezzature logistiche e di produzione, la qualità del prodotto ed il “service” pre-post vendita, hanno contribuito a fare di Daila un’azienda leader nel settore dello zucchero in Italia.<br><br>
-
-Un management professionale, ben diretto dalla Proprietà, ha consentito all’azienda un costante sviluppo ed una graduale acquisizione dei marchi più prestigiosi dell’industria dolciaria italiana ed Europea.<br><br>
-
-Parliamo di Clienti quali: Bauli, Melegatti e molti altri di primaria importanza.<br><br>
+Parliamo di Clienti quali: Bauli, Melegatti e molti altri di primaria importanza.
 
 Daila opera attualmente in uno stabilimento di 6.200 mq. con moderne attrezzature.</p>
-</div>  
-    </div>
-<div id="slide2">
-    <div id="slider">
-<figure>
-<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
-<img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt="">
-<img src="http://demosthenes.info/assets/images/ibiza.jpg" alt="">
-<img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt="">
-<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
-</figure>
-</div>	
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
 
-</div>
-    -->
-</body>
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">La nostra qualità.</h2>
+          <p class="lead">Daila opera con un piano di autocontrollo dei suoi prodotti secondo le disposizioni HCCP del regolamento CE 852/2004.
+
+Tutta la nostra produzione è conforme alla normativa Italiana ed europea attualmente in vigore, particolarmente per quello che concerne il prodotto, la sua composizione, le sue caratteristiche chimiche e microbiologiche. Tutti i nostri prodotti NON sono deperibili
+
+Il nostro processo di produzione prevede una attenta analisi di tutte le eventuali anomalie produttive che si possono verificare nelle varie fasi di lavorazione del prodotto...
+
+             <p><a class="btn btn-default" href="comelavoriamo.html" role="button">Continua &raquo;</a></p>
+</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Daila  <span class="text-muted">Zucchero.</span></h2>
+          <p class="lead">La qualità delle nostre materie prime, le moderne attrezzature, la potenzialità del nostro comparto produttivo, i severi controlli di processo cui sottoponiamo la nostra produzione, ci consentono di offrire alla nostra Clientela, oltre ad una gamma completa di prodotti ed una invidiabile puntualità di consegna, anche un ottimale rapporto qualità / prezzo ed una dinamica flessibilità nel caso di personalizzazione o di commesse dedicate...</p>
+            
+             <p><a class="btn btn-default" href="dailazucchero.html" role="button">Continua &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Ritorna in cima</a></p>
+        <p><a href="index.html" class="text-info">Daila srl</a>  <br><span class="text-info">Indirizzo:</span> Via Caduti sul lavoro 14, Osio sotto, Bergamo, Italy
+<br> <span class="text-info">Tel.:</span> +39 035 530495 &middot  <span class="text-info">Fax.:</span> +39 035 531072 &middot <span class="text-info"> Email:</span> info@daila.it <br>
+<span class="text-info">Partita IVA:</span> 02743210169</p>
+
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
