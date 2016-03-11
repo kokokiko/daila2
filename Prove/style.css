@@ -1,0 +1,130 @@
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+*{
+      margin: 0px;
+   padding: 0px;
+}
+#header{
+    position:fixed;
+    
+    background-color:#FFFFFF; 
+    height:50px;
+    padding:0px;
+    width:100%;
+    border: 1px solid #E2E2E2;
+}
+#bottonemenu{
+    font-size:200%;
+    position:fixed;
+    left:30px;
+    top:10px;
+    height:35px;
+    width: 35px;
+    text-align: center;
+    line-height: 100%;
+    
+    cursor:pointer;
+}
+
+
+#menu{
+-webkit-box-shadow: 3px 3px 12px 0px rgba(50, 50, 50, 0.31);
+-moz-box-shadow:    3px 3px 12px 0px rgba(50, 50, 50, 0.31);
+box-shadow:         3px 3px 12px 0px rgba(50, 50, 50, 0.31);
+    background-color:white;
+    position:fixed;
+    top:52px;
+    visibility:hidden;
+    width:100px;
+    text-align:left;
+    border-right: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    border-left: 1px solid #E2E2E2;
+
+}
+#menu a{
+    text-decoration:none;
+    color:#444444;
+}
+#menu ul li{
+text-align:center;
+padding-top:10px;
+padding-bottom:10px;
+    
+}
+#menu ul li:hover{
+    background-color:#444444;
+    color:#FFFFFF;
+    
+}
+
+#menu ul{
+    padding:0px;
+    margin:0px;
+    list-style-type:none;
+}
+
+#search{
+    position:absolute;
+    height:25px;
+    width:350px;
+    left:350px;
+    top:10px;
+    border: 1px solid #E2E2E2;
+}
+#search:focus{outline: none;
+box-shadow:inset 0 0 1px 1px rgba(136, 136, 136, 0.19);}
+#search:hover{
+   box-shadow:inset 0 0 1px 1px rgba(136, 136, 136, 0.19); 
+}
+#btnsearch{
+    background-color:#f8f8f8;
+    color:#848484;
+    cursor:pointer;
+    width:35px;
+    height:25px;
+    font-size:200%;
+    text-align:center;
+    line-height:30px;
+    position:fixed;
+    left:702px;
+    top:11px;
+    
+    border: 1px solid #E2E2E2;
+}
+#btnsearch:hover{
+    background-color:#F0F0F0;
+    color:#333;
+}
+
+
+
+
+
+
+#contenuto{
+    position:absolute;
+    z-index:-9;
+    top:50px;
+    height:100%;
+    width:100%;
+    background-color: #F1F1F1;
+}
+
+#maincontenuto{
+    
+    border: 1px solid #E2E2E2;
+    background-color: white;
+    width:70%;
+    margin-left: 150px;
+    margin-top:40px;
+    height:500px;
+}
